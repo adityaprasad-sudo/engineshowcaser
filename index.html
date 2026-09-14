@@ -1,1 +1,37 @@
-something
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Engine Showroom</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/"
+        }
+      }
+    </script>
+</head>
+<body class="themeobs">
+    <div class="loader"></div>
+    <div id="viewcontainer" class="viewcontainer">
+        <canvas class="webglcanvas"></canvas>
+    </div>
+    
+    <div id="overlay" class="overlay">
+        <div class="loaderspin"></div>
+        <div class="loadertxt">Initializing Aerospace Showroom</div>
+        <div class="loadersubtxt">Loading 3D Engine Geometry &amp; Animations…</div>
+    </div>
+    
+<body>
+        <script type="module" src="js/script.js"></script>
+            
+        </script>
+    </body>
+</html>
